@@ -2,7 +2,7 @@
   <tr>
     <td>
       <a href="https://www.bootstrapdash.com/demo/corona-free/jquery/template/index.html" target="_blank"><img src="preview.jpg"></a>
-       <h3>Corona-free</h3>
+       <h3>LAZIZA FOOD</h3>
     </td>
   </tr>
 </table>
