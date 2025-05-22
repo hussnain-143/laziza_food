@@ -1,73 +1,113 @@
-<table>
-  <tr>
-    <td>
-      <a href="https://www.bootstrapdash.com/demo/corona-free/jquery/template/index.html" target="_blank"><img src="preview.jpg"></a>
-       <h3>LAZIZA FOOD</h3>
-    </td>
-  </tr>
-</table>
+# 🍔 Laziza Food - Restaurant Order Management System
 
-<h1>CoronaAdmin-Free-Admin-Template</h1>
-Corona Admin is a free responsive admin template built with Bootstrap 4. The template has colorful, attractive yet simple and elegant design. The template is well crafted, with all the components neatly and carefully designed and arranged within the template.
+<p align="center">
+  <img src="preview.jpg" alt="System Preview" width="800">
+  <br>
+  <em>Web-based solution for efficient table order management in restaurants</em>
+</p>
 
-Corona Admin is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems, project management systems, CMS or CRM.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-Although the template has a design like none other, it is easily customizable to suit your requirements. Corona Admin comes with a clean and well-commented code that makes it easy to work with the template. Thus making it an ideal pick for jump starting your project.
+---
 
-<h1>Credits:</h1>
+## 🌟 Table of Contents
+- [Key Features](#-key-features)
+- [Demo](#-demo)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
+- [API Documentation](#-api-documentation)
+- [Running Tests](#-running-tests)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Support](#-support)
 
-- Bootstrap 4
-- Material Design Icons
-- jQuery
-- Gulp
-- Chart.js
+---
 
-<h1>Browser Support:</h1>
+## 🚀 Key Features
 
-Corona Admin is designed to work flawlessly with all the latest and modern web browsers.
+- **Table-Centric Interface**
+  - 📟 Simple table number selection (1–20)
+  - 📱 Mobile-friendly ordering interface
+- **Order Management**
+  - 🛒 Real-time cart updates
+  - 📝 Special instructions per item
+  - 💳 Multiple payment options
+- **Staff Features**
+  - 👩🍳 Kitchen display system
+  - 📊 Sales analytics dashboard
+  - 📈 Inventory management
+- **Customer Experience**
+  - 🖥️ Digital menu with categories
+  - ⏱️ Order status tracking
+  - 📲 Responsive design
 
-- Chrome (latest)
-- FireFox (latest)
-- Safari (latest)
-- Opera (latest)
-- IE10+
+---
 
-<h1>License Information:</h1>
+## 🎥 Demo
 
-Corona Admin is released under MIT license. Corona Admin is a free Bootstrap 4 admin template developed from BootstrapDash. Feel free to download it, use it, share it, get creative with it.
+- 🌐 [Live Preview](https://www.bootstrapdash.com/demo/corona-free/jquery/template/index.html)
+- 📺 [Video Walkthrough](https://example.com/demo-video)
 
-<h1>How to use Corona Admin?</h1>
+---
 
-1 - Click the Clone or Download button in GitHub and download as a ZIP file or you can enter the command git clone https://github.com/BootstrapDash/corona-free-dark-bootstrap-admin-template.git in you terminal to get a copy of this template.
+## 💻 Tech Stack
 
-2 - After the files have been downloaded you will get a folder with all the required files
+**Frontend**
+- ![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5+-563D7C?logo=bootstrap)
+- ![Vue.js](https://img.shields.io/badge/Vue.js-3+-42b883?logo=vue.js)
 
-3 - You can install all the dependencies in the template by running the command npm install. All the required files are in the node modules.
+**Backend**
+- ![Laravel](https://img.shields.io/badge/Laravel-9+-FF2D20?logo=laravel)
 
-4 - Find the file named index.html, check what all components you need. Open the file in a text editor and you can start editing.
+**Database**
+- ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql)
 
-5 - Now that your project has now kick-started, all you need to do now is to code, code, and code to your heart's content.
+**Dev Tools**
+- ![Gulp](https://img.shields.io/badge/Gulp-CF4647?logo=gulp)
+- ![Chart.js](https://img.shields.io/badge/Chart.js-2.9+-FF6384?logo=chart.js)
 
-<h1>How to Contribute?:</h1>
+---
 
-We love your contributions and we welcome them wholeheartedly. We believe the more the merrier.
-To contribute make sure you have a Node.js and npm installed. Now run the command gulp --version. If the command returns with the Gulp version number, it means you have Gulp installed. If not you need to run the command npm install --global gulp-cli to install Gulp.
+## 📦 Installation
 
-<h2>Next</h2>
+### Prerequisites
 
-After Gulp has been installed, follow the steps below to contribute.
-<br>
-1 - Fork and clone the repo of Corona Admin.
-<br>
-2 - Run the command npm install to install all the dependencies.
-<br>
-3 - Enter the command gulp serve. This will open Corona Admin in your default browser.
-<br>
-4 - Make your valuable contribution
-<br>
-5 - Submit a pull request.
+- PHP 8.0+ (Laravel 12+ compatible)
+- Composer
+- MySQL 8.0+
+- Vue.js 3+
+- Node.js v14+
+- npm v6+
 
-  <hr>
-	Do you need a template with more features and functionalities? Get more with our collection of the premium template with more plugins, eye catching animations, UI components, and sample pages all fitting together with a high-quality design.
-Visit
-  <a href="https://www.bootstrapdash.com" target="_blank">https://www.bootstrapdash.com</a> for more admin templates.
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/hussnain-143/laziza_food
+# 2. Navigate into the directory
+cd laziza_food/front_end|back_end/laziza_food
+
+# 3. Install PHP dependencies
+composer install
+
+# 4. Copy .env file and set your environment credentials
+cp .env.example .env
+
+# 5. Generate application key
+php artisan key:generate
+
+# 6. Run database migrations
+php artisan migrate
+
+# 7. Install Node dependencies
+npm install
+
+# 8. Compile assets
+npm run dev
+
+# 9. Start Laravel server
+php artisan serve
